@@ -15,7 +15,7 @@ class SupplierResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            "supplier_id" => (string) $this->supplier_id,
+            // "supplier_id" => (string) $this->supplier_id,
             "name" => $this->name,
             "company_name"=> $this->company_name,
             "email"=> $this->email,
